@@ -14,7 +14,7 @@ app.use(cors({origin: '*'}));
 app.use(notesRoutes);
 
 mongoose
-.connect('mongodb+srv://nodejs:Eren1234@atlascluster.yevtk1s.mongodb.net/assignment?retryWrites=true&w=majority&appName=AtlasCluster')
+.connect('mongodb+srv://flytant:flytant@atlascluster.yevtk1s.mongodb.net/assignment?retryWrites=true&w=majority&appName=AtlasCluster')
 .then(result => {
     app.listen(8000);
 })
